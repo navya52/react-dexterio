@@ -6,6 +6,7 @@ function Navbar() {
 const[click, setClick] = useState(false);
 const[button,setButton] = useState(true);
 
+
 const handleClick = () => setClick(!click);
 const closeMobileMenu = () => setClick(false);
 const showButton = () => {
@@ -29,9 +30,9 @@ window.addEventListener('resize', showButton);
         <>
           <nav className="navbar">
             <div className="navbar-container">
-             <Link to="/" className="navbar-logo" onClick={
+            <Link to="/" className="navbar-logo" onClick={
                 closeMobileMenu}>
-                DEXTERIO <i className="fab fa-typo3"></i>
+            <i className="fab fa-typo3"></i>
             </Link>   
             <div className="menu-icon" onClick={handleClick}>
                 <i className={ click ? 'fas fa-times':'fas fa-bars'} />
@@ -59,8 +60,8 @@ window.addEventListener('resize', showButton);
                 </li>
             </ul>
            
-                {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
-             </div>   
+                {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
+             </div>  
             </nav>  
         </ >
     )

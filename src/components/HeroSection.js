@@ -6,8 +6,9 @@ import './HeroSection.css'
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src='./videos/video-2.mp4' autoPlay loop muted />
-            <img src='./images/logo.png' />
+            <video src='/videos/movie.mp4' autoPlay loop muted />
+      
+           <div className="logo"><img src='./images/logo.png' /></div> 
             <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--outline'
                 buttonSize='btn--large'>
