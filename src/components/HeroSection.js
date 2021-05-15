@@ -15,9 +15,9 @@ function HeroSection() {
                     Register
                 </Button>
                 <Button className='btns' 
-                buttonStyle='btn--primary'
+                buttonStyle='btn--outline'
                 buttonSize='btn--large'>
-                    Book a demo <i className='far fa-play-cirlce'></i>
+                    Portfolio
                 </Button>
             </div>
             

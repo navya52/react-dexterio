@@ -25,14 +25,12 @@ useEffect(() =>{
 window.addEventListener('resize', showButton);
 
     return (
-
-
         <>
           <nav className="navbar">
             <div className="navbar-container">
             <Link to="/" className="navbar-logo" onClick={
                 closeMobileMenu}>
-            <i className="fab fa-typo3"></i>
+            <i className="fab fa-typo3"> </i> Dexterio
             </Link>   
             <div className="menu-icon" onClick={handleClick}>
                 <i className={ click ? 'fas fa-times':'fas fa-bars'} />
@@ -45,17 +43,27 @@ window.addEventListener('resize', showButton);
                 </li>
                 <li className='nav-item'>
                     <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                        about us
+                        Projects
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                        why us
+                        Prefab Rooms
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                        contact
+                        Services
+                    </Link>
+                </li>
+                <li className='nav-item'>
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        About us
+                    </Link>
+                </li>
+                <li className='nav-item'>
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        Register
                     </Link>
                 </li>
             </ul>

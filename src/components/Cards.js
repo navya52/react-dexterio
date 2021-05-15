@@ -4,57 +4,34 @@ import './Cards.css'
 function Cards() {
     return (
         <div className='cards'>
+            
             <h1>
-                check deez
+                Prefab Interiors
             </h1>
+          
+            <p>
+                Prefabricated sets to your custom needs delivered upon order
+            </p>
+            
             <div className="cards__container">
                 <div className="cards__wrapper">
                 <ul className="cards__items">
-                        <CardItem 
-                        src="images/img-9.jpg"
-                        text="Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified ags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop "
-                        label='bedroom'
-                        path='/services'
-                        />
-                        <CardItem 
-                        src="images/img-9.jpg"
-                        text="Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified ags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop "
-                        label='bedroom'
-                        path='/services'
-                        />
-                        <CardItem 
-                        src="images/img-9.jpg"
-                        text="Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified ags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop "
-                        label='bedroom'
+                <CardItem 
+                        src="./images/1.jpeg"
+                        text="Choose high quality, modular solutions like kitchens, wardrobes, TV units, and more."
+                       
+                        label='Residential Projects'
                         path='/services'
                         />
                        
-                    </ul>   <ul className="cards__items">
                         <CardItem 
-                        src="images/img-9.jpg"
-                        text="Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified ags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop "
-                        label='bedroom'
-                        path='/services'
-                        />
-                        <CardItem 
-                        src="images/img-9.jpg"
-                        text="Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified ags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop "
-                        label='bedroom'
-                        path='/services'
-                        />
-                        <CardItem 
-                        src="images/img-9.jpg"
-                        text="Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified ags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop "
-                        label='bedroom'
-                        path='/services'
-                        />
-                        <CardItem 
-                        src="images/img-9.jpg"
-                        text="Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified ags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop "
-                        label='bedroom'
+                        src="./images/11.jpeg"
+                        text="Choose high quality, modular solutions like kitchens, wardrobes, TV units, and more."
+                        label='Business Projects'
                         path='/services'
                         />
                     </ul>
+                    
                 </div>
             </div>
         </div>
