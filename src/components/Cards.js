@@ -17,16 +17,42 @@ function Cards() {
                 <div className="cards__wrapper">
                 <ul className="cards__items">
                 <CardItem 
-                        src="./images/1.jpeg"
-                        text="Choose high quality, modular solutions like kitchens, wardrobes, TV units, and more."
+                        src="https://momento360.com/e/u/f8b197868cb6455992ea73e52b31337a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-mode=mp"
+                        text="Choose high q"
+                       
+                        label='Residential Projects'
+                        path='/services'
+                        /><CardItem 
+                        src="https://momento360.com/e/u/f8b197868cb6455992ea73e52b31337a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-mode=mp"
+                        text="Choose high q"
                        
                         label='Residential Projects'
                         path='/services'
                         />
                        
+                       <CardItem 
+                        src="https://momento360.com/e/u/f8b197868cb6455992ea73e52b31337a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-mode=mp"
+                        text="Choose high"
+                        label='Business Projects'
+                        path='/services'
+                        /> 
+                          </ul>
+                          <ul className="cards__items">
                         <CardItem 
-                        src="./images/11.jpeg"
-                        text="Choose high quality, modular solutions like kitchens, wardrobes, TV units, and more."
+                        src="https://momento360.com/e/u/f8b197868cb6455992ea73e52b31337a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-mode=mp"
+                        text="Choose high"
+                        label='Business Projects'
+                        path='/services'
+                        />  
+                        <CardItem 
+                        src="https://momento360.com/e/u/f8b197868cb6455992ea73e52b31337a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-mode=mp"
+                        text="Choose high"
+                        label='Business Projects'
+                        path='/services'
+                        />  
+                        <CardItem 
+                        src="https://momento360.com/e/u/f8b197868cb6455992ea73e52b31337a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-mode=mp"
+                        text="Choose high"
                         label='Business Projects'
                         path='/services'
                         />

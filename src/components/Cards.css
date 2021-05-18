@@ -10,9 +10,6 @@
     margin-top: 00.5rem;
     color: rgb(85, 77, 77);
   }
-  h5{
-    color:blueviolet;
-  }
   .cards__container {
     display: flex;
     flex-flow: column;
@@ -52,7 +49,6 @@
   .cards__item__pic-wrap {
     position: relative;
     width: 100%;
-    padding-top: 67%;
     overflow: hidden;
   }
   
